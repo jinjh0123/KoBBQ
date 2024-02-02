@@ -3,39 +3,47 @@ import { HomeIcon } from '@heroicons/react/20/solid'
 
 const members = [
     {
-        name: "Woosuk Seo",
-        affiliation: "Univ. of Michigan, Ann Arbor",
-        role: "PhD candidate",
-        thumb: require("../../public/images/thumb-wsseo.jpg"),
-        web: "https://seowoosuk.wixsite.com/home",
-        note: "*Research intern at NAVER AI Lab"
+        name: "Jiho Jin",
+        affiliation: "KAIST",
+        // role: "PhD candidate",
+        // thumb: require("../../public/images/thumb.jpg"),
+        web: "https://jinjh0123.github.io/",
+        // note: "*Research intern at NAVER AI Lab"
     },
     {
-        name: "Chanmo Yang",
-        affiliation: "Wonkwang Univ. Hospital",
-        role: "Child and Adolescent Psychiatrist",
-        thumb: require("../../public/images/thumb-cmyang.jpg"),
+        name: "Jiseon Kim",
+        affiliation: "KAIST",
+        // role: "PhD candidate",
+        // thumb: require("../../public/images/thumb.jpg"),
+        web: "https://hikoseon12.github.io/"
     },
     {
-        name: "Sun Young Park",
-        affiliation: "Univ. of Michigan, Ann Arbor",
-        role: "Associate Professor",
-        thumb: require("../../public/images/thumb-sypark.jpg"),
-        web: "http://sunyoungpark.weebly.com/",
+        name: "Nayeon Lee",
+        affiliation: "KAIST",
+        // role: "Associate Professor",
+        // thumb: require("../../public/images/thumb.jpg"),
+        // web: ""
     },
     {
-        name: "Mark S. Ackerman",
-        affiliation: "Univ. of Michigan, Ann Arbor",
-        role: "Professor",
-        thumb: require("../../public/images/thumb-mackerman.jpg"),
-        web: "https://www.socialworldsresearch.org/si/ackerm"
+        name: "Haneul Yoo",
+        affiliation: "KAIST",
+        // role: "PhD candidate",
+        // thumb: require("../../public/images/thumb.jpg"),
+        web: "https://haneul-yoo.github.io/"
     },
     {
-        name: "Young-Ho Kim",
+        name: "Alice Oh",
+        affiliation: "KAIST",
+        // role: "Professor",
+        // thumb: require("../../public/images/thumb.jpg"),
+        web: "https://aliceoh9.github.io/"
+    },
+    {
+        name: "Hwaran Lee",
         affiliation: "NAVER AI Lab",
-        role: "Research Scientist",
-        thumb: require("../../public/images/thumb-yhkim.jpg"),
-        web: "http://younghokim.net"
+        // role: "Lead Research Scientist",
+        // thumb: require("../../public/images/thumb.jpg"),
+        web: "https://hwaranlee.github.io/"
     }
 ]
 
@@ -45,9 +53,9 @@ export const Members = () => {
         {
             members.map(member => {
                 return <div key={member.name} className="flex items-center">
-                    <div className="relative w-[120px] h-[120px] rounded-full overflow-hidden">
+                    {/* <div className="relative w-[120px] h-[120px] rounded-full overflow-hidden">
                         <img className="fill" alt={`Thumbnail of ${member.name}`} src={member.thumb}/>
-                    </div>
+                    </div> */}
                     <div className="flex-1 ml-4">
                         <div className="text-xl font-semibold flex items-center">
                             <span>{member.name}</span>
@@ -64,11 +72,10 @@ export const Members = () => {
             })
         }
         </div>
-        <div className="mt-8 flex items-center gap-6 gap-y-8 flex-wrap">
+        {/* <div className="mt-8 flex items-center gap-6 gap-y-8 flex-wrap">
             <img className="w-[200px]" alt="NAVER logo" src={require("../../public/images/logos/ai_lab_logo_vertical.png")} width={1728} height={552}/>
             <a href="https://www.si.umich.edu/" target="_blank"><img className="w-20" alt="UMSI logo" src={require("../../public/images/logos/umsi-logo.svg")}/></a>
             <a href="https://global.wkuh.org/" target="_blank"><img className="w-[250px]" alt="Wonkwang logo" src={require("../../public/images/logos/wonkwang-logo.svg")}/></a>
-            
-        </div>
+        </div> */}
     </Section>
 }
