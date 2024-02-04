@@ -21,7 +21,7 @@ export const Abstract = () => {
                 <TableCellsIcon className="w-6 h-6 text-white" />
                 <span>Data</span>
             </a>
-            <a className="icon-label-button" href="https://github.com/naver-ai/kobbq" target="_blank">
+            <a className="icon-label-button" href="https://github.com/jinjh0123/KoBBQ-code" target="_blank">
                 <GithubIcon size={28}/>
                 <span>Code</span>
             </a>
