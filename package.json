@@ -19,7 +19,9 @@
     "prismjs-bibtex": "^2.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "core-js": "^2.6.5",
+    "uilab-logo.js": "git+https://github.com/uilab-github/uilab-logo.js.git#master"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -1,5 +1,7 @@
 import { Section } from "../components/Section"
 import { HomeIcon } from '@heroicons/react/20/solid'
+import React, { useRef, useEffect } from 'react'
+import Logo from 'uilab-logo.js/lib/uilab-logo'
 
 const members = [
     {
@@ -48,6 +50,38 @@ const members = [
 ]
 
 export const Members = () => {
+    const logoRef = useRef(null);
+
+    useEffect(() => {
+        if (logoRef.current) {
+            const logo = new Logo(logoRef.current, { defaultColor: '#222222' });
+
+            return () => {
+                logoRef.current = null;
+            };
+        }
+    }, []);
+
+    const styles = {
+        logodrawingcontainer: {
+            "float": "left"
+        } as React.CSSProperties,
+        logodrawing: {
+            "width": 80,
+            "height": 80,
+            "color": "black"
+        } as React.CSSProperties,
+        logotext: {
+            "display": "block",
+            "float": "left",
+            "padding": "0.5rem 0.5rem",
+            "color": "black",
+            "font-size": "1.8rem",
+            "font-weight": "bold",
+            "line-height": "1.2em"
+        } as React.CSSProperties
+      }
+
     return <Section title="Contributors">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {
@@ -72,10 +106,14 @@ export const Members = () => {
             })
         }
         </div>
-        {/* <div className="mt-8 flex items-center gap-6 gap-y-8 flex-wrap">
+        <div className="mt-8 flex items-center gap-6 gap-y-8 flex-wrap">
             <img className="w-[200px]" alt="NAVER logo" src={require("../../public/images/logos/ai_lab_logo_vertical.png")} width={1728} height={552}/>
-            <a href="https://www.si.umich.edu/" target="_blank"><img className="w-20" alt="UMSI logo" src={require("../../public/images/logos/umsi-logo.svg")}/></a>
-            <a href="https://global.wkuh.org/" target="_blank"><img className="w-[250px]" alt="Wonkwang logo" src={require("../../public/images/logos/wonkwang-logo.svg")}/></a>
-        </div> */}
+            <div className="uilab-logo">
+                <div className="logo-drawing-container" style={styles.logodrawingcontainer}>
+                    <div className="logo-drawing" ref={logoRef} style={styles.logodrawing}></div>
+                </div>
+                <div className="logo-text" style={styles.logotext}>USERS &amp;<br />INFORMATION</div>
+            </div>
+        </div>
     </Section>
 }
