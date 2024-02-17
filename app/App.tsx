@@ -5,6 +5,7 @@ import { Abstract } from "./sections/Abstract";
 import { Footer } from "./sections/Footer";
 import { Architecture } from "./sections/Architecture";
 import { Mockup } from "./sections/Mockup";
+import { Dataset } from "./sections/Dataset";
 
 export function App() {
   return (<>
@@ -19,6 +20,7 @@ export function App() {
         <Abstract/>
       </div>
       <Members/>
+      <Dataset/>
       {/* <Architecture/>
       <Cite/>
       <Acknowledgments/> */}
