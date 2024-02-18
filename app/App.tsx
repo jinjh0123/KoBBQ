@@ -17,7 +17,7 @@ export function App() {
         <div className="font-light leading-8 sm:leading-[2.5rem] text-2xl sm:text-3xl"><strong>Ko</strong>rean <strong>B</strong>ias <strong>B</strong>enchmark for <strong>Q</strong>uestion Answering</div>
       </div>
       <div className="flex flex-col items-center md:flex-row md:items-start gap-12">
-        {/* <Mockup/> */}
+        <Mockup/>
         <Abstract/>
       </div>
       <Members/>
