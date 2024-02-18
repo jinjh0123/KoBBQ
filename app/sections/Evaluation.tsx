@@ -142,7 +142,7 @@ export const Evaluation = () => {
         yaxis: { title: 'diff-bias<sub>A</sub>', range: [-0.1, 1], dtick: 0.2 },
         xaxis2: { title: 'accuracy', range: [0, 1], dtick: 0.2 },
         yaxis2: { title: 'diff-bias<sub>D</sub>', range: [-0.1, 1], dtick: 0.2 },
-        paper_bgcolor: 'rgba(0,0,0,0)',
+        paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)',
         annotations: [
             {
               text: "Ambiguous",
