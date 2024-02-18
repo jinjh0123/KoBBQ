@@ -15,14 +15,17 @@ const bibTex = "@inproceedings{seo2024chacha,<br/>\n\
 export const Cite = () => {
     return <Section title="Citing This Work">
         <div className="border-y-[1px] border-slate-400 py-3">
-            <div>Woosuk Seo, Chanmo Yang, and Young-Ho Kim. 2024.</div>
-            <div className="font-bold">ChaCha: Leveraging Large Language Models to Prompt Children to Share Their Emotions about Personal Events.</div>
-            <div>In <i>Proceedings of ACM CHI Conference on Human Factors in Computing Systems</i> (CHI&apos;24). To appear.</div>
+            <div>
+                Jiho Jin, Jiseon Kim, Nayeon Lee, Haneul Yoo, Alice Oh, Hwaran Lee.
+                KoBBQ: Korean Bias Benchmark for Question Answering.
+                <i>Transactions of the Association for Computational Linguistics</i> 2024. To appear.</div>
         </div>
+        {/*
         <div className="mt-4">
             <div className="font-bold mb-1">BibTeX</div>
             <p className={"p-3 font-mono text-xs sm:text-sm border-[1px] rounded-lg border-slate-300 decoration-none"} dangerouslySetInnerHTML={{__html: bibTex}}/>
         </div>
+        */}
         
     </Section>
 }

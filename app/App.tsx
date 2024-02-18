@@ -23,9 +23,8 @@ export function App() {
       <Members/>
       <Dataset/>
       <Evaluation/>
-      {/* <Architecture/>
       <Cite/>
-      <Acknowledgments/> */}
+      {/* <Acknowledgments/> */}
     </main><Footer/></>
   );
 }
