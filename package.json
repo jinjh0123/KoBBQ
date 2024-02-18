@@ -11,25 +11,36 @@
   "dependencies": {
     "@heroicons/react": "^2.1.1",
     "@uiw/react-prismjs": "^1.3.6",
+    "core-js": "^2.6.5",
     "gh-pages": "^6.1.1",
     "parcel": "^2.11.0",
+    "plotly.js": "^2.29.1",
     "postcss": "^8.4.33",
     "prism-themes": "^1.9.0",
     "prismjs": "^1.29.0",
     "prismjs-bibtex": "^2.1.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-plotly.js": "^2.6.0",
     "tailwindcss": "^3.4.1",
-    "core-js": "^2.6.5",
     "uilab-logo.js": "git+https://github.com/uilab-github/uilab-logo.js.git#master"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/plotly.js": "^2.29.1",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-plotly.js": "^2.6.3",
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "constants-browserify": "^1.0.0",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
     "process": "^0.11.10",
-    "typescript": "^5"
+    "stream-browserify": "^3.0.0",
+    "typescript": "^5",
+    "util": "^0.12.5"
   }
 }
