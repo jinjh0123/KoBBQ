@@ -17,11 +17,11 @@ export const Abstract = () => {
                 <ArxivIcon size={20}/>
                 <span>arXiv</span>
             </a>
-            <a className="icon-label-button bg-teal-500 pl-4" href="https://docs.google.com/spreadsheets/d/1zlLcsRUR9S5oqikXEqqv5K0P45Y0j7Jzwekr6_E2n_4/edit?usp=sharing" target="_blank">
+            <a className="icon-label-button bg-teal-500 pl-4" href="https://github.com/naver-ai/KoBBQ/tree/main/data" target="_blank">
                 <TableCellsIcon className="w-6 h-6 text-white" />
                 <span>Data</span>
             </a>
-            <a className="icon-label-button" href="https://github.com/jinjh0123/KoBBQ-code" target="_blank">
+            <a className="icon-label-button" href="https://github.com/naver-ai/KoBBQ" target="_blank">
                 <GithubIcon size={28}/>
                 <span>Code</span>
             </a>
