@@ -22,6 +22,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-plotly.js": "^2.6.0",
+    "react-table": "^7.8.0",
+    "sass": "^1.71.1",
     "tailwindcss": "^3.4.1",
     "uilab-logo.js": "git+https://github.com/uilab-github/uilab-logo.js.git#master"
   },
