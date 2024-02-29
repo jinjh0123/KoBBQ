@@ -20,11 +20,11 @@ export function App() {
         <Mockup/>
         <Abstract/>
       </div>
-      <Members/>
       <Dataset/>
       <Evaluation/>
       <Cite/>
       {/* <Acknowledgments/> */}
+      <Members/>
     </main><Footer/></>
   );
 }
