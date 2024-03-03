@@ -185,27 +185,23 @@ export const Dataset = () => {
           <div className="text-2xl font-light text-[#4592ec] mb-4">Examples</div>
           <div>
             <div className="flex flex-wrap gap-4 mt-4">
-              <a className={`icon-label-button bg-[#ffffff]/0 pl-4
-                            text-[#ffabdb] border border-[#ffabdb]
-                            ${selected === 'SR' ? 'text-white bg-[#ffabdb]' : 'hover:text-white hover:bg-[#ffabdb]'}`}
+              <a className={`icon-label-button pl-4 border border-[#ffabdb]
+                            ${selected === 'SR' ? 'text-white bg-[#ffabdb]' : 'text-[#ffabdb] bg-[#ffffff]/0 hover:text-white hover:bg-[#ffabdb]'}`}
                             target="_blank" onMouseEnter={() => handleSelect('SR')}>
                   <span>Sample-Removed</span>
               </a>
-              <a className={`icon-label-button bg-[#ffffff]/0 pl-4
-                            text-[#ddb2ff] border border-[#ddb2ff]
-                            ${selected === 'TM' ? 'text-white bg-[#ddb2ff]' : 'hover:text-white hover:bg-[#ddb2ff]'}`}
+              <a className={`icon-label-button pl-4 border border-[#ddb2ff]
+                            ${selected === 'TM' ? 'text-white bg-[#ddb2ff]' : 'text-[#ddb2ff] bg-[#ffffff]/0 hover:text-white hover:bg-[#ddb2ff]'}`}
                             target="_blank" onMouseEnter={() => handleSelect('TM')}>
                   <span>Target-Modified</span>
               </a>
-              <a className={`icon-label-button bg-[#ffffff]/0 pl-4
-                            text-[#a7c0ff] border border-[#a7c0ff]
-                            ${selected === 'ST' ? 'text-white bg-[#a7c0ff]' : 'hover:text-white hover:bg-[#a7c0ff]'}`}
+              <a className={`icon-label-button pl-4 border border-[#a7c0ff]
+                            ${selected === 'ST' ? 'text-white bg-[#a7c0ff]' : 'text-[#a7c0ff] bg-[#ffffff]/0 hover:text-white hover:bg-[#a7c0ff]'}`}
                             target="_blank" onMouseEnter={() => handleSelect('ST')}>
                   <span>Simply-Transferred</span>
               </a>
-              <a className={`icon-label-button bg-[#ffffff]/0 pl-4
-                            text-[#7fd5c1] border border-[#7fd5c1]
-                            ${selected === 'NC' ? 'text-white bg-[#7fd5c1]' : 'hover:text-white hover:bg-[#7fd5c1]'}`}
+              <a className={`icon-label-button pl-4 border border-[#7fd5c1]
+                            ${selected === 'NC' ? 'text-white bg-[#7fd5c1]' : 'text-[#7fd5c1] bg-[#ffffff]/0 hover:text-white hover:bg-[#7fd5c1]'}`}
                             target="_blank" onMouseEnter={() => handleSelect('NC')}>
                   <span>Newly-Created</span>
               </a>
