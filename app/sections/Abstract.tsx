@@ -13,15 +13,15 @@ export const Abstract = () => {
                 <NewspaperIcon className="w-6 h-6 text-white"/>
                 <span>Paper</span>
             </a> */}
-            <a className="icon-label-button bg-red-400 pl-4" href="https://arxiv.org/abs/2307.16778" target="_blank">
+            <a className="icon-label-button bg-red-400 pl-4 text-white" href="https://arxiv.org/abs/2307.16778" target="_blank">
                 <ArxivIcon size={20}/>
                 <span>arXiv</span>
             </a>
-            <a className="icon-label-button bg-teal-500 pl-4" href="https://github.com/naver-ai/KoBBQ/tree/main/data" target="_blank">
+            <a className="icon-label-button bg-teal-500 pl-4 text-white" href="https://github.com/naver-ai/KoBBQ/tree/main/data" target="_blank">
                 <TableCellsIcon className="w-6 h-6 text-white" />
                 <span>Data</span>
             </a>
-            <a className="icon-label-button" href="https://github.com/naver-ai/KoBBQ" target="_blank">
+            <a className="icon-label-button text-white" href="https://github.com/naver-ai/KoBBQ" target="_blank">
                 <GithubIcon size={28}/>
                 <span>Code</span>
             </a>

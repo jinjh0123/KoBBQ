@@ -53,7 +53,7 @@ body {
   }
 
   .icon-label-button > span {
-    @apply ml-2 font-semibold text-white;
+    @apply ml-2 font-semibold;
   }
 }
 
@@ -89,12 +89,27 @@ body {
   } */
 }
 
-
 table {
   border-collapse: collapse;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+}
+
+.sr{
+  background-color: #ffabdb;
+}
+
+.tm{
+  background-color: #ddb2ff;
+}
+
+.st{
+  background-color: #a7c0ff;
+}
+
+.nc{
+  background-color: #7fd5c1;
 }
 
 th {
@@ -105,7 +120,7 @@ th {
 }
 
 thead th {
-  background-color: #55608f;
+  background-color: #677489;
 }
 
 td {
@@ -117,7 +132,7 @@ td {
 
 tbody {
   & tr:hover {
-    background-color: rgba(85, 96, 143, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
   }
 
   /* & td {
