@@ -1,5 +1,5 @@
 import { Section } from "../components/Section"
-import { ArxivIcon, GithubIcon } from "../components/icons"
+import { ArxivIcon, GithubIcon, HuggingfaceIcon } from "../components/icons"
 import { NewspaperIcon } from "@heroicons/react/20/solid"
 import { TableCellsIcon } from "@heroicons/react/20/solid"
 
@@ -17,13 +17,13 @@ export const Abstract = () => {
                 <ArxivIcon size={20}/>
                 <span>arXiv</span>
             </a>
-            <a className="icon-label-button bg-teal-500 pl-4 text-white" href="https://github.com/naver-ai/KoBBQ/tree/main/data" target="_blank">
-                <TableCellsIcon className="w-6 h-6 text-white" />
-                <span>Data</span>
+            <a className="icon-label-button bg-yellow-400 pl-4 text-white" href="https://huggingface.co/datasets/naver-ai/kobbq" target="_blank">
+                <HuggingfaceIcon size={40}/>
+                <span>HuggingFace</span>
             </a>
             <a className="icon-label-button text-white" href="https://github.com/naver-ai/KoBBQ" target="_blank">
                 <GithubIcon size={28}/>
-                <span>Code</span>
+                <span>Code & Data</span>
             </a>
         </div>
     </Section>
