@@ -1,31 +1,33 @@
 import { Section } from "../components/Section"
 
-const bibTex = "@inproceedings{seo2024chacha,<br/>\n\
-&emsp;&emsp;author = {Seo, Woosuk and Yang, Chanmo and Kim, Young-Ho},<br/>\n\
-&emsp;&emsp;title = {ChaCha: Leveraging Large Language Models to Prompt Children to Share Their Emotions about Personal Events},<br/>\n\
+const bibTex = '@article{10.1162/tacl_a_00661,<br/>\n\
+&emsp;&emsp;author = {Jin, Jiho and Kim, Jiseon and Lee, Nayeon and Yoo, Haneul and Oh, Alice and Lee, Hwaran},<br/>\n\
+&emsp;&emsp;title = "{KoBBQ: Korean Bias Benchmark for Question Answering}",<br/>\n\
+&emsp;&emsp;journal = {Transactions of the Association for Computational Linguistics},<br/>\n\
+&emsp;&emsp;volume = {12},<br/>\n\
+&emsp;&emsp;pages = {507-524},<br/>\n\
 &emsp;&emsp;year = {2024},<br/>\n\
-&emsp;&emsp;doi = {10.1145/3613904.3642152},<br/>\n\
-&emsp;&emsp;publisher = {Association for Computing Machinery},<br/>\n\
-&emsp;&emsp;address = {New York, NY, USA},<br/>\n\
-&emsp;&emsp;booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},<br/>\n\
-&emsp;&emsp;location = {Honolulu, HI, USA},<br/>\n\
-&emsp;&emsp;series = {CHI'24}<br/>\n\
-    }"
+&emsp;&emsp;month = {05},<br/>\n\
+&emsp;&emsp;issn = {2307-387X},<br/>\n\
+&emsp;&emsp;doi = {10.1162/tacl_a_00661},<br/>\n\
+&emsp;&emsp;url = {https://doi.org/10.1162/tacl\_a\_00661},<br/>\n\
+&emsp;&emsp;eprint = {https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl\_a\_00661/2369542/tacl\_a\_00661.pdf}<br/>\n\
+}'
 
 export const Cite = () => {
     return <Section title="Citing This Work">
         <div className="border-y-[1px] border-slate-400 py-3">
             <div>
-                Jiho Jin, Jiseon Kim, Nayeon Lee, Haneul Yoo, Alice Oh, Hwaran Lee.
+                Jiho Jin, Jiseon Kim, Nayeon Lee, Haneul Yoo, Alice Oh, Hwaran Lee;
                 KoBBQ: Korean Bias Benchmark for Question Answering.
-                <i>Transactions of the Association for Computational Linguistics</i> 2024. To appear.</div>
+                <i>Transactions of the Association for Computational Linguistics</i> 2024; 12 507–524.
+                doi: https://doi.org/10.1162/tacl_a_00661
+            </div>
         </div>
-        {/*
         <div className="mt-4">
             <div className="font-bold mb-1">BibTeX</div>
             <p className={"p-3 font-mono text-xs sm:text-sm border-[1px] rounded-lg border-slate-300 decoration-none"} dangerouslySetInnerHTML={{__html: bibTex}}/>
         </div>
-        */}
         
     </Section>
 }
