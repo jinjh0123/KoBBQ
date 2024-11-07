@@ -1,13 +1,15 @@
 import { Section } from "../components/Section"
 
-const bibTex = '@article{10.1162/tacl_a_00661,<br/>\n\
+const bibTex = '@article{jin-etal-2024-kobbq,<br/>\n\
 &emsp;&emsp;author = {Jin, Jiho and Kim, Jiseon and Lee, Nayeon and Yoo, Haneul and Oh, Alice and Lee, Hwaran},<br/>\n\
-&emsp;&emsp;title = "{KoBBQ: Korean Bias Benchmark for Question Answering}",<br/>\n\
+&emsp;&emsp;title = {{K}o{BBQ}: {K}orean Bias Benchmark for Question Answering},<br/>\n\
 &emsp;&emsp;journal = {Transactions of the Association for Computational Linguistics},<br/>\n\
 &emsp;&emsp;volume = {12},<br/>\n\
 &emsp;&emsp;pages = {507-524},<br/>\n\
 &emsp;&emsp;year = {2024},<br/>\n\
 &emsp;&emsp;month = {05},<br/>\n\
+&emsp;&emsp;address = {Cambridge, MA},<br/>\n\
+&emsp;&emsp;publisher = {MIT Press},<br/>\n\
 &emsp;&emsp;issn = {2307-387X},<br/>\n\
 &emsp;&emsp;doi = {10.1162/tacl_a_00661},<br/>\n\
 &emsp;&emsp;url = {https://doi.org/10.1162/tacl\_a\_00661},<br/>\n\
